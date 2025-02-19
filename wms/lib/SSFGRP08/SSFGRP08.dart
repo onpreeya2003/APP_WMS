@@ -470,7 +470,7 @@ class _SSFGRP08_MAINState extends State<SSFGRP08_MAIN> {
     }
     try {
       final response = await http.get(Uri.parse(
-          '${globals.IP_API}http://172.16.0.82:/apex/wms/SSFGRP08/SSFGRP08_Step_1_SelectLovStartLoc'
+          '${globals.IP_API}/apex/wms/SSFGRP08/SSFGRP08_Step_1_SelectLovStartLoc'
           '/${globals.P_ERP_OU_CODE}/${globals.APP_USER}/${returnStartWare.isEmpty ? 'null' : returnStartWare}'
           '/${returnEndWare.isEmpty ? 'null' : returnEndWare}'));
 
