@@ -87,7 +87,7 @@ class _LoginPageState extends State<LoginPage> {
           'P_OU': 'LIK',
           'P_DIV': 'HQ',
           'APP_ALIAS': 'WMS',
-          'P_HTTP_HOST': '172.16.0.82:8888',
+          'P_HTTP_HOST': '172.16.0.125:8888',
         },
       );
 
